@@ -1,0 +1,50 @@
+.container {
+    min-height: 500px;
+    padding: 2% 10%;
+    background-color: #DBE0F3;
+}
+
+.projectList {
+    display: inline-block;
+    width: 35%;
+    margin: 15px;
+    vertical-align: top;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.projectList h2 {
+    font-size: 20px;
+    color: #5C5F70;
+    font-weight: 600;
+}
+
+.projectList tbody>tr:last-child,
+.projectList tbody>tr:last-child input {
+    background: #325397;
+    color: #fff;
+}
+
+.projectList input {
+    text-align: center;
+}
+
+.projectList2 {
+    display: none;
+}
+
+.projectList table,
+.projectList table td {
+    border: 1px solid #315497;
+}
+
+.projectList table input {
+    border: none;
+    width: 50px;
+    background-color: #DBE0F3;
+}
+
+.calendarContainer {
+    display: inline-block;
+    width: 60%;
+}
